@@ -1,7 +1,8 @@
 # ISK_PROJ
 [Politechnika Krakowska (2 stopień) - Integracja Sieci Komputerowych - Projekt]
 
-Don't laugh. I made project in less than two days :)  Push into git to not lost
+Don't laugh. I made project in less than two days :)  
+A lot of magic inside. Push into git to not lost
 
 ## REQUIREMENTS
 * Maven
