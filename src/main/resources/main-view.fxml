@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" fx:controller="isk.controller.MainController">
+    <Button alignment="TOP_CENTER" GridPane.rowIndex="1" onAction="#handleWepPasswordBtn">
+       Złam hasło WEP
+    </Button>
+    <Button alignment="BOTTOM_CENTER" GridPane.rowIndex="3" onAction="#handleSettingsBtn">
+        Ustawienia
+    </Button>
+</GridPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="isk.controller.SettingsController">
+
+    <Button onAction="#backToMain"
+            AnchorPane.topAnchor="5.0"
+    AnchorPane.leftAnchor="5.0">
+        Ekran główny
+    </Button>
+
+    <Label fx:id="cos" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="100.0">
+        Twój interfejs sieciowy to
+    </Label>
+
+    <Label fx:id="labelField" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="100.0"/>
+
+</AnchorPane>
